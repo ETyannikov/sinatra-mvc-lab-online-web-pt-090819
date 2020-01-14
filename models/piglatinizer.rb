@@ -7,7 +7,7 @@ class PigLatinizer
   
   
   def pig-latinize
-    @text.split(" ").length == 1 ? pig_word(@text) : pig_word(input_str)
+    @text.split(" ").length == 1 ? pig_word(@text) : @text.each {|text|text.pig_word}
   end
   
   def pig_word()
