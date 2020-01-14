@@ -6,11 +6,11 @@ class PigLatinizer
   end
   
   
-  def pig_latinize
-    input_str.split(" ").length == 1 ? piglatinize_word(input_str) : piglatinize_sentence(input_str)
+  def pig-latinize
+    @text.split(" ").length == 1 ? pig_word(@text) : pig_word(input_str)
   end
   
-  def word
+  def pig_word()
     #pig_latinize the word
   end
 end
