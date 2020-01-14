@@ -7,7 +7,7 @@ class PigLatinizer
   
   
   def pig_latinize
-    #split sentence and do each word
+    
   end
   
   def word
